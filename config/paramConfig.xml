@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SocketConfig version="1.0">
+	<Init>
+		<!-- 监听端口 -->
+		<parameter name="listenPort" value="17102" />
+		<!-- 线程数 -->
+		<parameter name="threadPool" value="100" />
+		<!-- 读写超时时间 -->
+		<parameter name="inetTimeOut" value="30000" />
+		<!-- 连接超时时间 -->
+		<parameter name="socketSoTimeOut" value="30000" />
+	</Init>
+</SocketConfig>

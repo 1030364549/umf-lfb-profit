@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Phones> 
+  <!-- 手机  -->  
+  <Phone name="iphone">111 
+    <!--名字  属性名   属性值	  文本内容 -->  
+    <Type 名字="IPHONE">XXX</Type>  
+    <Type 名字="iphone XR">XXR</Type>  
+    <Type name="iphone XS">XXS</Type>  
+    <Type name="iphone XXX">XXXX</Type> 
+  </Phone>  
+  <Phone name="iphone">222 
+    <Type name="p9"/>  
+    <Type name="p10"/>  
+    <Type name="荣耀10"/> 
+  </Phone>  
+  <Phone name="三星">333 
+    <Type name="Not8"/>  
+    <Type name="Not9"/>  
+    <Type name="Not10"/> 
+  </Phone>  
+  <Android name="安卓">lualu 
+    <Type name="ggg"/>  
+    <Type name="hhh"/>  
+    <Type name="jjj"/> 
+  </Android>
+</Phones>

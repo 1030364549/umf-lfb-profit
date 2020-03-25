@@ -1,0 +1,33 @@
+[SQL]: [insert into profit_detailed (id,serial,localdate,localtime,merno,mer_name,mer_category,pos_sn,activity,agent_num,agent_name,belong_agent,belong_agent_name,card_type,pay_type,accept_type,double_exemption,quick_pay,settle_method,amount,mer_rate,surcharge_rate,mer_charge,surcharge_charge,is_capping,settle_ratio,surcharge_ratio,charge_profit,surcharge_profit,createdate,createtime,createman,activity_name,pan,rrno,bno,money,profit_agent_num,profit_agent_name,posno,charge_profit_below,surcharge_profit_below,agent_level,isgradually,level_tax,below_tax,level_tax_profit,below_tax_profit,profit_tax_diff,tax,pos_type,ld_merno) values (seq_profit_detailed.nextval,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]
+[Exp]: java.lang.NullPointerException
+	at com.umf.mapper.dbdao.impl.DBDaoImpl.insProData(DBDaoImpl.java:285)
+	at com.umf.service.mianservice.TradingService.deal_00(TradingService.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.umf.service.mianservice.TradingService.mainService(TradingService.java:73)
+	at com.umf.socket.server.SocketServer$1.run(SocketServer.java:69)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]
+************************************************************
+【系统时间】:2019-11-10 20:26:56
+【交易流水】:100003921627
+【错误信息】:java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.umf.service.mianservice.TradingService.mainService(TradingService.java:73)
+	at com.umf.socket.server.SocketServer$1.run(SocketServer.java:69)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at com.umf.mapper.dbdao.impl.DBDaoImpl.insProData(DBDaoImpl.java:285)
+	at com.umf.service.mianservice.TradingService.deal_00(TradingService.java:146)
+	... 9 more
+
+
